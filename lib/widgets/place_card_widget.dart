@@ -69,7 +69,7 @@ class PlaceCardWidget extends StatelessWidget {
                       const SizedBox(height: 2),
                       Text(
                         place.description,
-                        style: Theme.of(context).textTheme.bodySmall?.copyWith(color: const Color.fromARGB(255, 136, 136, 136)),
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(color: const Color.fromARGB(255, 106, 106, 106)),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                       )
